@@ -1,5 +1,6 @@
 def add(a,b):
-  retun a+b
-def test add():
-  assert add(1,3)==4
-  assert add(1,-1)==0
+  return a+b
+
+def test_add():
+  assert add(1,2)==3
+  assert add(2,2)==4
